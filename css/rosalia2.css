@@ -1,0 +1,104 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 14px;
+	font-family: "Patrick Hand", cursive;
+	text-align: left;
+}
+
+body {
+	width: 70%;
+	margin: 0 auto;
+	padding: 1em;
+	background: #ccc url(imagen13.jpg) no-repeat right/100%;
+}
+
+.btns-container {
+	width: 75%;
+	margin: 0 auto;
+	padding: .2em .2em .2em 1em;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-direction: column;
+	border-radius: .5em;
+	background: #ffffff80;
+	-webkit-backdrop-filter: blur(6px);
+	backdrop-filter: blur(6px);
+	box-shadow: 3px 3px 5px 5px #cccccc80;
+}
+
+h1 {
+	width: 100%;
+	margin: 0px 0px 0em 0px;
+	padding: 0em;
+	font-weight: bold;
+	font-size: 3em;
+	text-align: center;
+	text-shadow: 2px 2px 2px #7ed8c6;
+	letter-spacing: .1em;
+	background: #ffffffcc;
+	border-radius: .1em;
+	box-shadow: 3px 3px 5px 5px #7ed8c6;
+}
+
+.btn {
+	display: inline-flex;
+	width: 100%;
+	padding: .3em;
+	margin: .2em;
+	font-family: monospace;
+	/*	text-align: center;*/
+	font-size: 1.5em;
+	user-select: none;
+	white-space: nowrap;
+	cursor: pointer;
+	justify-content: flex-end;
+	border: 1px solid transparent;
+	border-radius: .5em;
+	box-shadow: 3px 3px 5px 5px #66666680;
+}
+
+/*  
+   -------------------------- */
+.btn-primary {
+	color: #ffffff;
+	border-color: #666666CC;
+	background-color: transparent;
+	background-size: 0 100%;
+	background-image: linear-gradient(to left, #666666cc, #66666680);
+	background-repeat: no-repeat;
+	transition: all 0.5s;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+	border-color: #43C6AC;
+	background-color: #7ed8c6;
+	background-image: linear-gradient(to right, #cccccc80, #cccccc80);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	transition: all 0.5s;
+}
+
+a {
+	color: maroon;
+	font-size: 1.2em;
+	text-decoration: none;
+	border-radius: .5em;
+	font-size: 1.7em;
+}
+
+a:hover {
+	font-size: 1.7em;
+	text-decoration: none;
+	border-radius: .5em;
+}
+
+span {
+	margin: 0 0 0 .2em;
+	font-size: .5em;
+}
